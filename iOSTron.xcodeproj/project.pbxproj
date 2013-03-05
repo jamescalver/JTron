@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D159D66016E5845C00CBCCC5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D159D65F16E5845C00CBCCC5 /* UIKit.framework */; };
+		D159D66216E5845C00CBCCC5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D159D66116E5845C00CBCCC5 /* Foundation.framework */; };
+		D159D66416E5845C00CBCCC5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D159D66316E5845C00CBCCC5 /* CoreGraphics.framework */; };
+		D159D66616E5845C00CBCCC5 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D159D66516E5845C00CBCCC5 /* GLKit.framework */; };
+		D159D66816E5845C00CBCCC5 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D159D66716E5845C00CBCCC5 /* OpenGLES.framework */; };
+		D159D66E16E5845C00CBCCC5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D159D66C16E5845C00CBCCC5 /* InfoPlist.strings */; };
+		D159D67016E5845C00CBCCC5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D159D66F16E5845C00CBCCC5 /* main.m */; };
+		D159D67416E5845C00CBCCC5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D159D67316E5845C00CBCCC5 /* AppDelegate.m */; };
+		D159D67616E5845C00CBCCC5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D159D67516E5845C00CBCCC5 /* Default.png */; };
+		D159D67816E5845C00CBCCC5 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D159D67716E5845C00CBCCC5 /* Default@2x.png */; };
+		D159D67A16E5845C00CBCCC5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D159D67916E5845C00CBCCC5 /* Default-568h@2x.png */; };
+		D159D67D16E5845C00CBCCC5 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D159D67B16E5845C00CBCCC5 /* MainStoryboard_iPhone.storyboard */; };
+		D159D68016E5845C00CBCCC5 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D159D67E16E5845C00CBCCC5 /* MainStoryboard_iPad.storyboard */; };
+		D159D68216E5845C00CBCCC5 /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = D159D68116E5845C00CBCCC5 /* Shader.fsh */; };
+		D159D68416E5845C00CBCCC5 /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = D159D68316E5845C00CBCCC5 /* Shader.vsh */; };
+		D159D68716E5845C00CBCCC5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D159D68616E5845C00CBCCC5 /* ViewController.m */; };
+		D159D68F16E5845D00CBCCC5 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D159D68E16E5845D00CBCCC5 /* SenTestingKit.framework */; };
+		D159D69016E5845D00CBCCC5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D159D65F16E5845C00CBCCC5 /* UIKit.framework */; };
+		D159D69116E5845D00CBCCC5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D159D66116E5845C00CBCCC5 /* Foundation.framework */; };
+		D159D69916E5845D00CBCCC5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D159D69716E5845D00CBCCC5 /* InfoPlist.strings */; };
+		D159D69C16E5845D00CBCCC5 /* iOSTronTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D159D69B16E5845D00CBCCC5 /* iOSTronTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D159D69216E5845D00CBCCC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D159D65416E5845C00CBCCC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D159D65B16E5845C00CBCCC5;
+			remoteInfo = iOSTron;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D159D65C16E5845C00CBCCC5 /* iOSTron.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSTron.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D159D65F16E5845C00CBCCC5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D159D66116E5845C00CBCCC5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D159D66316E5845C00CBCCC5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D159D66516E5845C00CBCCC5 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		D159D66716E5845C00CBCCC5 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		D159D66B16E5845C00CBCCC5 /* iOSTron-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOSTron-Info.plist"; sourceTree = "<group>"; };
+		D159D66D16E5845C00CBCCC5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D159D66F16E5845C00CBCCC5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D159D67116E5845C00CBCCC5 /* iOSTron-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOSTron-Prefix.pch"; sourceTree = "<group>"; };
+		D159D67216E5845C00CBCCC5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D159D67316E5845C00CBCCC5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D159D67516E5845C00CBCCC5 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		D159D67716E5845C00CBCCC5 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		D159D67916E5845C00CBCCC5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D159D67C16E5845C00CBCCC5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		D159D67F16E5845C00CBCCC5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		D159D68116E5845C00CBCCC5 /* Shader.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.fsh; path = Shaders/Shader.fsh; sourceTree = "<group>"; };
+		D159D68316E5845C00CBCCC5 /* Shader.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.vsh; path = Shaders/Shader.vsh; sourceTree = "<group>"; };
+		D159D68516E5845C00CBCCC5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D159D68616E5845C00CBCCC5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D159D68D16E5845D00CBCCC5 /* iOSTronTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSTronTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D159D68E16E5845D00CBCCC5 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		D159D69616E5845D00CBCCC5 /* iOSTronTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOSTronTests-Info.plist"; sourceTree = "<group>"; };
+		D159D69816E5845D00CBCCC5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D159D69A16E5845D00CBCCC5 /* iOSTronTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOSTronTests.h; sourceTree = "<group>"; };
+		D159D69B16E5845D00CBCCC5 /* iOSTronTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSTronTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D159D65916E5845C00CBCCC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D159D66016E5845C00CBCCC5 /* UIKit.framework in Frameworks */,
+				D159D66216E5845C00CBCCC5 /* Foundation.framework in Frameworks */,
+				D159D66416E5845C00CBCCC5 /* CoreGraphics.framework in Frameworks */,
+				D159D66616E5845C00CBCCC5 /* GLKit.framework in Frameworks */,
+				D159D66816E5845C00CBCCC5 /* OpenGLES.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D159D68916E5845D00CBCCC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D159D68F16E5845D00CBCCC5 /* SenTestingKit.framework in Frameworks */,
+				D159D69016E5845D00CBCCC5 /* UIKit.framework in Frameworks */,
+				D159D69116E5845D00CBCCC5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D159D65316E5845C00CBCCC5 = {
+			isa = PBXGroup;
+			children = (
+				D159D66916E5845C00CBCCC5 /* iOSTron */,
+				D159D69416E5845D00CBCCC5 /* iOSTronTests */,
+				D159D65E16E5845C00CBCCC5 /* Frameworks */,
+				D159D65D16E5845C00CBCCC5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D159D65D16E5845C00CBCCC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D159D65C16E5845C00CBCCC5 /* iOSTron.app */,
+				D159D68D16E5845D00CBCCC5 /* iOSTronTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D159D65E16E5845C00CBCCC5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D159D65F16E5845C00CBCCC5 /* UIKit.framework */,
+				D159D66116E5845C00CBCCC5 /* Foundation.framework */,
+				D159D66316E5845C00CBCCC5 /* CoreGraphics.framework */,
+				D159D66516E5845C00CBCCC5 /* GLKit.framework */,
+				D159D66716E5845C00CBCCC5 /* OpenGLES.framework */,
+				D159D68E16E5845D00CBCCC5 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D159D66916E5845C00CBCCC5 /* iOSTron */ = {
+			isa = PBXGroup;
+			children = (
+				D159D67216E5845C00CBCCC5 /* AppDelegate.h */,
+				D159D67316E5845C00CBCCC5 /* AppDelegate.m */,
+				D159D67B16E5845C00CBCCC5 /* MainStoryboard_iPhone.storyboard */,
+				D159D67E16E5845C00CBCCC5 /* MainStoryboard_iPad.storyboard */,
+				D159D68116E5845C00CBCCC5 /* Shader.fsh */,
+				D159D68316E5845C00CBCCC5 /* Shader.vsh */,
+				D159D68516E5845C00CBCCC5 /* ViewController.h */,
+				D159D68616E5845C00CBCCC5 /* ViewController.m */,
+				D159D66A16E5845C00CBCCC5 /* Supporting Files */,
+			);
+			path = iOSTron;
+			sourceTree = "<group>";
+		};
+		D159D66A16E5845C00CBCCC5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D159D66B16E5845C00CBCCC5 /* iOSTron-Info.plist */,
+				D159D66C16E5845C00CBCCC5 /* InfoPlist.strings */,
+				D159D66F16E5845C00CBCCC5 /* main.m */,
+				D159D67116E5845C00CBCCC5 /* iOSTron-Prefix.pch */,
+				D159D67516E5845C00CBCCC5 /* Default.png */,
+				D159D67716E5845C00CBCCC5 /* Default@2x.png */,
+				D159D67916E5845C00CBCCC5 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D159D69416E5845D00CBCCC5 /* iOSTronTests */ = {
+			isa = PBXGroup;
+			children = (
+				D159D69A16E5845D00CBCCC5 /* iOSTronTests.h */,
+				D159D69B16E5845D00CBCCC5 /* iOSTronTests.m */,
+				D159D69516E5845D00CBCCC5 /* Supporting Files */,
+			);
+			path = iOSTronTests;
+			sourceTree = "<group>";
+		};
+		D159D69516E5845D00CBCCC5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D159D69616E5845D00CBCCC5 /* iOSTronTests-Info.plist */,
+				D159D69716E5845D00CBCCC5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D159D65B16E5845C00CBCCC5 /* iOSTron */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D159D69F16E5845D00CBCCC5 /* Build configuration list for PBXNativeTarget "iOSTron" */;
+			buildPhases = (
+				D159D65816E5845C00CBCCC5 /* Sources */,
+				D159D65916E5845C00CBCCC5 /* Frameworks */,
+				D159D65A16E5845C00CBCCC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSTron;
+			productName = iOSTron;
+			productReference = D159D65C16E5845C00CBCCC5 /* iOSTron.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D159D68C16E5845D00CBCCC5 /* iOSTronTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D159D6A216E5845D00CBCCC5 /* Build configuration list for PBXNativeTarget "iOSTronTests" */;
+			buildPhases = (
+				D159D68816E5845D00CBCCC5 /* Sources */,
+				D159D68916E5845D00CBCCC5 /* Frameworks */,
+				D159D68A16E5845D00CBCCC5 /* Resources */,
+				D159D68B16E5845D00CBCCC5 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D159D69316E5845D00CBCCC5 /* PBXTargetDependency */,
+			);
+			name = iOSTronTests;
+			productName = iOSTronTests;
+			productReference = D159D68D16E5845D00CBCCC5 /* iOSTronTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D159D65416E5845C00CBCCC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "James Calver";
+			};
+			buildConfigurationList = D159D65716E5845C00CBCCC5 /* Build configuration list for PBXProject "iOSTron" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D159D65316E5845C00CBCCC5;
+			productRefGroup = D159D65D16E5845C00CBCCC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D159D65B16E5845C00CBCCC5 /* iOSTron */,
+				D159D68C16E5845D00CBCCC5 /* iOSTronTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D159D65A16E5845C00CBCCC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D159D66E16E5845C00CBCCC5 /* InfoPlist.strings in Resources */,
+				D159D67616E5845C00CBCCC5 /* Default.png in Resources */,
+				D159D67816E5845C00CBCCC5 /* Default@2x.png in Resources */,
+				D159D67A16E5845C00CBCCC5 /* Default-568h@2x.png in Resources */,
+				D159D67D16E5845C00CBCCC5 /* MainStoryboard_iPhone.storyboard in Resources */,
+				D159D68016E5845C00CBCCC5 /* MainStoryboard_iPad.storyboard in Resources */,
+				D159D68216E5845C00CBCCC5 /* Shader.fsh in Resources */,
+				D159D68416E5845C00CBCCC5 /* Shader.vsh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D159D68A16E5845D00CBCCC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D159D69916E5845D00CBCCC5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D159D68B16E5845D00CBCCC5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D159D65816E5845C00CBCCC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D159D67016E5845C00CBCCC5 /* main.m in Sources */,
+				D159D67416E5845C00CBCCC5 /* AppDelegate.m in Sources */,
+				D159D68716E5845C00CBCCC5 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D159D68816E5845D00CBCCC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D159D69C16E5845D00CBCCC5 /* iOSTronTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D159D69316E5845D00CBCCC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D159D65B16E5845C00CBCCC5 /* iOSTron */;
+			targetProxy = D159D69216E5845D00CBCCC5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D159D66C16E5845C00CBCCC5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D159D66D16E5845C00CBCCC5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D159D67B16E5845C00CBCCC5 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D159D67C16E5845C00CBCCC5 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		D159D67E16E5845C00CBCCC5 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D159D67F16E5845C00CBCCC5 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		D159D69716E5845D00CBCCC5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D159D69816E5845D00CBCCC5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D159D69D16E5845D00CBCCC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D159D69E16E5845D00CBCCC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D159D6A016E5845D00CBCCC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSTron/iOSTron-Prefix.pch";
+				INFOPLIST_FILE = "iOSTron/iOSTron-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D159D6A116E5845D00CBCCC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSTron/iOSTron-Prefix.pch";
+				INFOPLIST_FILE = "iOSTron/iOSTron-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D159D6A316E5845D00CBCCC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOSTron.app/iOSTron";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSTron/iOSTron-Prefix.pch";
+				INFOPLIST_FILE = "iOSTronTests/iOSTronTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		D159D6A416E5845D00CBCCC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOSTron.app/iOSTron";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSTron/iOSTron-Prefix.pch";
+				INFOPLIST_FILE = "iOSTronTests/iOSTronTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D159D65716E5845C00CBCCC5 /* Build configuration list for PBXProject "iOSTron" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D159D69D16E5845D00CBCCC5 /* Debug */,
+				D159D69E16E5845D00CBCCC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D159D69F16E5845D00CBCCC5 /* Build configuration list for PBXNativeTarget "iOSTron" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D159D6A016E5845D00CBCCC5 /* Debug */,
+				D159D6A116E5845D00CBCCC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D159D6A216E5845D00CBCCC5 /* Build configuration list for PBXNativeTarget "iOSTronTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D159D6A316E5845D00CBCCC5 /* Debug */,
+				D159D6A416E5845D00CBCCC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D159D65416E5845C00CBCCC5 /* Project object */;
+}
